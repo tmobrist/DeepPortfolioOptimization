@@ -1,19 +1,7 @@
-This is the orinal implementation of our paper, A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem ([arXiv:1706.10059](https://arxiv.org/abs/1706.10059)), together with a toolkit of portfolio management research.
+This is the implementation of the master thesis Some Aspects of Deep Portfolio Optimization. 
 
-* The deep reinforcement learning framework is the core part of the library.
-The method is basically the policy gradient on immediate reward.
- One can config the topology, training method or input data in a separate json file. The training process will be record and user could visualize the training using tensorboard.
-* Also, result summary and parallel training are allowed for better hyper-parameters optimization.
-* The financial-model-based portfolio management algorithms are also embedded in this library for comparision purpose, whose implementation is based on Li and Hoi's toolkit [OLPS](https://github.com/OLPS/OLPS).
+Zhengyao Jiang, Dixing Xu and Jinjun Liang puplished at the end of June 2017 A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem [arXiv:1706.10059] in which they presented a full exploitation deterministic deep on-policy gradient reinforcement learning system. The reinforcement learning agent of this system selects and manages a portfolio of various cryptocurrencies. In this thesis we analyze the impact of different input features to the deep neural network, a method to pretrain the deep neural network and different data normalization schemes on the policy function of the reinforcement learning agent. The analysis is done by considering the accumulative portfolio value over time, the sharpe ratio, the maximum drawdown and the portfolio weights. The different reinforcement learning systems are tested on two different data sets. The first data set represents a bull market and the second data set is a bearish market containing a market crash. The results of the analysis show that the mentioned modifications to the reinforcement learning system cause a significant change in the investment philosophy of the artificial portfolio manager.
 
-## Differences between article version
-Note that this library is a part of our main project, which is several versions beyond the article described.
-
-* In this version, some technical bugs has been fixed and there are also some improvement in hyper-parameters and engineering.
-  * The most important bug in the arxiv v2 article is the test time span mentioned in the article is about 30% shorter than the real one. And thus the volumn average interval(for asset selection) overlapped with the backtest data.
-* With new hyper-parameters, users can train the model in a very fast pace.(less than 30 mins)
-* All updates will be incorporated into future versions of the article.
-* Original versioning history,  and internal discussions, including some in-code comments, are removed in this open-sourced edition. These contains our unimplemented ideas, some of which will very likely become the foundations of our future publications
 
 ## Platform Support
 Python 3.5+ in windows and Python 2.7+/3.5+ in linux are supported.
