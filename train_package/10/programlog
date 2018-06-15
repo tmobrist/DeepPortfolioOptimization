@@ -1,0 +1,40 @@
+INFO:root:select coin online from 2017-04-03 12:28 to 2017-05-03 12:28
+DEBUG:root:Selected coins are: [u'ETH', u'LTC', u'XRP', u'reversed_USDT', u'ETC', u'DASH', u'XMR', u'XEM', u'FCT', u'GNT', u'ZEC']
+INFO:root:fill ETH data from 2015-07-01 00:00 to 2015-08-08 07:04
+INFO:root:fill ETC data from 2015-07-01 00:00 to 2016-07-24 06:14
+INFO:root:fill FCT data from 2015-07-01 00:00 to 2015-10-05 01:54
+INFO:root:fill GNT data from 2015-07-01 00:00 to 2017-02-18 04:24
+INFO:root:fill ZEC data from 2015-07-01 00:00 to 2016-10-28 20:09
+INFO:root:feature type list is ['close', 'high', 'low', 'open', 'volume']
+DEBUG:root:buffer_bias is 0.000050
+INFO:root:the number of training examples is 32249, of test examples is 2776
+DEBUG:root:the training set is from 0 to 32248
+DEBUG:root:the test set is from 32281 to 35088
+WARNING:tensorflow:From /Users/michaelobrist/tensorflow4/lib/python2.7/site-packages/tflearn/initializations.py:119: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+INFO:root:upper bound in test is 7.156389528173714e+28
+INFO:root:average time for data accessing is 2.11787223816e-06
+INFO:root:average time for training is 0.000228193998337
+INFO:root:==============================
+INFO:root:step 0
+INFO:root:------------------------------
+INFO:root:the portfolio value on test set is 0.10809101
+log_mean is -0.00080143445
+loss_value is 0.000801
+log mean without commission fee is 0.000225
+
+INFO:root:==============================
+
+INFO:root:average time for data accessing is 0.00149594306946
+INFO:root:average time for training is 0.0530213825703
+INFO:root:==============================
+INFO:root:step 1000
+INFO:root:------------------------------
+INFO:root:the portfolio value on test set is 1.3954569
+log_mean is 0.000120037366
+loss_value is -0.000120
+log mean without commission fee is 0.000208
+
+INFO:root:==============================
+

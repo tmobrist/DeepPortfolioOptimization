@@ -1,0 +1,23 @@
+INFO:root:select coins offline from 2017-05-22 05:50 to 2017-06-21 05:50
+DEBUG:root:Selected coins are: [u'ETH', u'XRP', u'reversed_USDT', u'DGB', u'LTC', u'ETC', u'BTS', u'SC', u'STRAT', u'STR', u'ZEC']
+INFO:root:feature type list is ['close', 'high', 'low', 'open', 'volume']
+DEBUG:root:buffer_bias is 0.000050
+INFO:root:the number of training examples is 5354, of test examples is 437
+DEBUG:root:the training set is from 0 to 5353
+DEBUG:root:the test set is from 5386 to 5854
+WARNING:tensorflow:From /Users/Thomas/tensorflow/lib/python2.7/site-packages/tflearn/initializations.py:119: __init__ (from tensorflow.python.ops.init_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.initializers.variance_scaling instead with distribution=uniform to get equivalent behavior.
+INFO:root:upper bound in test is 1069.17449786
+INFO:root:average time for data accessing is 6.04350566864e-05
+INFO:root:average time for training is 0.0104692399502
+INFO:root:==============================
+INFO:root:step 0
+INFO:root:------------------------------
+INFO:root:the portfolio value on test set is 0.916052
+log_mean is -0.000200647
+loss_value is 0.000201
+log mean without commission fee is -0.000169
+
+INFO:root:==============================
+
